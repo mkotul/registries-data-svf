@@ -23,13 +23,13 @@
 					<li><a href="#/search/{{'uri://registries/club'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
 				</ul>
 			</li>
-			<li psui-accordion-element title="{{'menu.association.title' | translate}}" icon-class="glyphicon-briefcase">
+			<li psui-accordion-element title="Zväz" icon-class="glyphicon-briefcase">
 				<ul>
 					<li><a href="#/registry/new/{{'uri://registries/association'|uriescape}}"><span>{{'menu.new.lower.level' | translate}}</span></a></li>
 					<li><a href="#/search/{{'uri://registries/association'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
 				</ul>
 			</li>
-			<li psui-accordion-element title="Transfer" icon-class="glyphicon-forward">
+			<li psui-accordion-element title="Zmena kl. príslušnosti" icon-class="glyphicon-forward">
 				<ul>
 					<li><a href="#/registry/new/{{'uri://registries/transfer'|uriescape}}"><span>{{'menu.new.lower.level' | translate}}</span></a></li>
 					<li><a href="#/search/{{'uri://registries/transfer'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
@@ -41,9 +41,16 @@
 					<li><a href="#/search/{{'uri://registries/roster'|uriescape}}"><span>Hľadať súpisku</span></a></li>
 				</ul>
 			</li>
-			<li psui-accordion-element title="Sezóna" icon-class="glyphicon-calendar">
+
+			<li psui-accordion-element title="Veková kategória" icon-class="glyphicon-tag">
 				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/season'|uriescape}}"><span>Nová</span></a></li>
+					<li><a href="#/registry/new/{{'uri://registries/ageCategory'|uriescape}}"><span>Nová veková kategoria</span></a></li>
+					<li><a href="#/search/{{'uri://registries/ageCategory'|uriescape}}"><span>Hľadať vekovú kategória</span></a></li>
+				</ul>
+			</li>
+			<li psui-accordion-element title="Súťažný ročník" icon-class="glyphicon-calendar">
+				<ul>
+					<li><a href="#/registry/new/{{'uri://registries/season'|uriescape}}"><span>Nový</span></a></li>
 					<li><a href="#/search/{{'uri://registries/season'|uriescape}}"><span>Hľadať</span></a></li>
 				</ul>
 			</li>
